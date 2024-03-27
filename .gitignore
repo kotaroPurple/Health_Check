@@ -1,0 +1,4 @@
+# ignore health data exporter
+applehealthdata-master/
+# ignore data
+apple_health_export/
