@@ -24,7 +24,7 @@ def show_burned_energy(filepath: str) -> None:
     # Start, End 日付選択
     date_col1, date_col2 = st.columns(2)
     with date_col1:
-        start_date = st.date_input('ここから', datetime(2020, 1, 1))
+        start_date = st.date_input('ここから', datetime(2023, 1, 1))
 
     with date_col2:
         end_date = st.date_input('ここまで', datetime(2024, 3, 15))
